@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>테이블 기본 구조</h1>
+
+    <table border="1">
+        <caption>table caption</caption>
+        <thead>
+            <tr>
+                <th>table header cell</th>
+                <th>table header cell</th>
+                <th>table header cell</th>
+                <th>table header cell</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+            <tr>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+            <tr>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>result</td>
+                <td>result</td>
+                <td>result</td>
+                <td>result</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <hr />
+
+    <h1>테이블 짤 때 꼭 써야 하는 내용들</h1>
+
+    <ul>
+        <li>caption을 써 주어야 한다.</li>
+        <li>th에는 scope를 적어주어 범위의 방향을 지정해 주어야 한다.</li>
+    </ul>
+
+    <!--   -->
+    <table border="1">
+        <caption>table caption</caption>
+        <thead>
+            <tr>
+                <th scope="col">table header cell</th>
+                <th scope="col">table header cell</th>
+                <th scope="col">table header cell</th>
+                <th scope="col">table header cell</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+            <tr>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+            <tr>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">result</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <hr />
+
+    <h1>테이블 짤 때 꼭 써야 하는 내용들</h1>
+
+    <ul>
+        <li>caption을 써 주어야 한다.</li>
+        <li>th에는 scope를 적어주어 범위의 방향을 지정해 주어야 한다.</li>
+    </ul>
+
+    <!--   -->
+    <table border="1">
+        <caption>table caption</caption>
+        <thead>
+            <tr>
+                <th scope="col">table header cell</th>
+                <th scope="col">table header cell</th>
+                <th scope="col">table header cell</th>
+                <th scope="col">table header cell</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">rowspan으로 3행 합침</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+            <tr>
+                <!-- <td>table data cell</td> -->
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+            <tr>
+                <!-- <td>table data cell</td> -->
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">result</td>
+                <td colspan="3">colspan으로 3열 합침</td>
+                <!-- <td>...</td>
+              <td>...</td> -->
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <hr />
+
+    <h1>테이블의 크기를 지정하는 방법</h1>
+
+    <ul>
+        <li>테이블 전체는 width="100%"로 잡는다.</li>
+        <li>4칸이 있을 경우 3칸에만 크기 지정</li>
+        <li>브라우저마다 border를 크기에 포함하거나 하지 않거나 하기 때문에 
+            1,2px씩 차이가 날 수 있어서 마지막은 크기 지정을 하지 않는 것이 좋다.</li>
+    </ul>
+
+    <!--   -->
+    <table border="1" width="100%">
+        <caption>table caption</caption>
+        <colgroup>
+            <col width="200px">
+            <col width="200px">
+            <col width="200px">
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">table header cell</th>
+                <th scope="col">table header cell</th>
+                <th scope="col">table header cell</th>
+                <th scope="col">table header cell</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">rowspan으로 3행 합침</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+            <tr>
+                <!-- <td>table data cell</td> -->
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+            <tr>
+                <!-- <td>table data cell</td> -->
+                <td>table data cell</td>
+                <td>table data cell</td>
+                <td>table data cell</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">result</td>
+                <td colspan="3">colspan으로 3열 합침</td>
+                <!-- <td>...</td>
+               <td>...</td> -->
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</body>
+
+</html>
