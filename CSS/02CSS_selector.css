@@ -1,0 +1,135 @@
+body {
+    /* font-size: 12px; */
+}
+
+h1, .lead, #lead {
+    text-decoration: underline;
+}
+
+
+.lead {
+    color: green;
+}
+
+#lead {
+    background-color: lime;
+}
+#header > p {
+    border: 3px solid black;
+}
+
+#header em {
+    background-color: orange;
+}
+
+.list li +li{
+    background-color: lightgray;
+}
+
+#header h1 + p {
+    background-color: yellow;
+}
+
+a[title] {
+    background-color: purple;
+    color: white;
+}
+
+a[href = "http://daum.net/"] {
+    background-color: black;
+    color: yellow;
+}
+
+
+a[href ^= "http://"] {
+    background-color: black;
+    color: yellow;
+}
+
+
+a[href $= ".pdf"] {
+    background-color: orange;
+    color: white;
+}
+
+li[title ~= "sample"] {
+    background-color: aqua;
+}
+
+li[title *= "m"] {
+    background-color: rgb(8, 110, 68);
+}
+
+li[lang |= "ja"] {
+    border-bottom: 2px solid orchid;
+}
+
+a:link {
+    color: green;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+    text-decoration: underline;
+}
+a:focus {
+    background-color: red;
+}
+
+body {
+    color: #333
+}
+
+a {
+    color: #888;
+    text-decoration: none   ;
+}
+
+.lead2:first-line {
+    background-color: aliceblue;
+}
+
+.lead2:first-letter {
+    font-size: 5em;
+}
+
+h1:before {
+    content: 'Before Area ';
+    color: blue;
+}
+
+h1:after {
+    content: ' After area';
+    color: red;
+}
+
+
+/* 우선순위 */
+/* 태그 type  1 */
+/* class 10 */
+/* id 100 */
+/* 인라인 css 1000  */
+
+div {
+    background-color: bisque;
+}
+
+.sample {
+    background-color: green;
+}
+
+#sample {
+    background-color: purple;
+}
+
