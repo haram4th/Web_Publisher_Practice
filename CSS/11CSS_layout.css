@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 800px;
+    /* box를 가운데 정렬할 때 margin: 0 auto; */
+    margin: 0 auto;
+    font: 12px 'Malgun Gothic', sans-serif;
+    /* font: weight style variant size/line-height family */
+    /* font: size family 는 필수*/
+
+}
+.wrap {
+    width: 800px;
+    /* box를 가운데 정렬할 때 margin: 0 auto; */
+    margin: 0 auto;
+}
+
+.wrap h1 {
+    padding: 15px 0;
+}
+
+.wrap .thumb {
+    /* float: left | right; */
+    float: left; 
+    /* float: right;  */
+    margin: 15px 0 15px 0;
+}
+
+.wrap p {
+    margin-bottom: 15px;
+}
+
+.wrap .text {
+    margin-left: 115px;
+    /* background-color: lime; */
+}

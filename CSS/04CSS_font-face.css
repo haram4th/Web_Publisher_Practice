@@ -1,0 +1,79 @@
+@font-face {
+    font-family: NGothic;
+            src: url(../fonts/NanumGothic.eot);
+            src: url(../fonts/NanumGothic.eot?#iefix) format('embedded-opentype'),
+                 url(../fonts/NanumGothic.woff) format('woff'),
+                 url(../fonts/NanumGothic.ttf) format('truetype')
+    }
+    body,th,td{
+        font-family: NGothic,'돋움',Dotum,Helvetica,sans-serif;
+    }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Courgette&family=Exo:wght@200&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-size: 20px;
+}
+
+.nanum {
+    font-family: NGothic, sans-serif;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+}
+
+.lead {
+    font-family: 'Exo', sans-serif;   
+}
+
+.lead2 {
+    font-family: 'Acme', sans-serif;
+}
+
+.noto1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+}
+
+.noto2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+}
+
+.noto3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+.noto4 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+
+.noto5 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+
+.noto6 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+}
+
+.noto7 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+}
+
+.noto8 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+}
+
+.noto9 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+}

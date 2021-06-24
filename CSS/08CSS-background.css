@@ -1,0 +1,20 @@
+body {
+    background: url(../HTML/img/twt.png) no-repeat fixed 90% 20px;  /* 브라우저의 90%와 이미지의 90% 부분이 맞춰져서 나옴 */
+    /* background-attachment: fixed; */
+}
+
+.box {
+    width: 600px;
+    padding: 20px;
+    border: 3px solid black;
+
+    /* 태그중에 -가 없는것은 무조건 위에 써야 한다. */
+    /* -가 있는 것보다 없는 것이 우선 적용됨 */
+    background-color: yellow;
+    background-image: url(../HTML/img/twt.png);
+    background-repeat: no-repeat; /* repeat | no-repeat | repeat-X | repaet-y */
+    /* background-position: center bottom;  left=0, top=0, center=50%, right=100%, bottom=100% */
+    /* background-position: 50% 100%; */
+    /* background-position: 20px 50%; */
+    background-position: -20px 50%;
+ }

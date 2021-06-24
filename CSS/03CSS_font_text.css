@@ -1,0 +1,49 @@
+
+body, h1, h2 {
+    /* font-family: '돋움',dotum, Helvetica, sans-serif; */
+    font-family: 'Malgun Gothic', Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    background-color: green;
+    font-size: 2.4em;
+    letter-spacing: .1em;
+    text-transform: capitalize;
+    /* uppercase | lowercase | capitalize */
+}
+
+h1 small {
+    background-color: lime;
+    font-size: .5em;
+    vertical-align: 5px;
+    /* top | middle | baseline | bottom */
+}
+
+h2 {
+    color: #ff0000;
+    font-size: 2em;
+    font-variant: small-caps;
+    text-decoration: line-through;
+    /* underline | overline | line-through | none */
+}
+
+address {
+    font-style: oblique;
+    /* normal | italic | oblique */
+}
+
+.lead {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-weight: bolder;
+    /* bold | bolder | 600 | 700 | 800 | 900  */  
+    /* normal | lighter | 100 | 200 | 300 | 400 | 500  */
+}
+
+.text {
+    text-indent: 1em;
+    line-height: 1.6em;
+    text-align: left;
+    word-spacing: 1em;
+}

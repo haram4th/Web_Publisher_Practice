@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 800px;
+    /* box를 가운데 정렬할 때 margin: 0 auto; */
+    margin: 0 auto;
+    font: 12px 'Malgun Gothic', sans-serif;
+    /* font: weight style variant size/line-height family */
+    /* font: size family 는 필수*/
+
+}
+img {
+    /* 이미지가 어떤 요소 안에 감싸져 있으면 vertical-align: top; 
+    을 해주어야 공간이 없어진다. */
+    vertical-align: top;
+}
+
+.wrap {
+    width: 800px;
+    /* box를 가운데 정렬할 때 margin: 0 auto; */
+    margin: 0 auto;
+}
+
+.wrap h1 {
+    padding: 15px 0;
+}
+
+.wrap .thumb {
+    /* float: left | right; */
+    float: left; 
+    border: 3px solid black;
+    margin: 15px 0 15px 0;
+}
+
+/* float 제거 */
+.wrap .text {
+    /* clear: left | right | both */
+    clear: both;
+}

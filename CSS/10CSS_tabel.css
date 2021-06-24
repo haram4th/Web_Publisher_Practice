@@ -1,0 +1,26 @@
+.tbl {
+    
+    /* border: 1px solid black; */
+    width: 800px;
+    table-layout: fixed; /* 각 셀의 크기를 내용의 양에 상관없이 일정하게 */
+    /* 셀의 외곽선을 1개만 나오게 할 때 */
+    /* border-collapse: collapse;  */
+    
+}
+.tbl td, .tbl th {
+    border: 1px solid gray;
+}
+
+
+/* 캡션 위치를 이동시키는 태그 */
+.tbl caption {
+    caption-side: bottom;
+}
+
+/* 내용이 비어있을 때 셀을 보이게 할지 숨길지 정하는 태그 */
+ /* border-collapse가 위에 있으면 작동하지 않음 */
+.tbl .ex1 {
+    /* empty-cells: show; */
+    empty-cells: hide;    
+}
+

@@ -1,0 +1,42 @@
+body {
+    font-size: 20px;
+    font-family: 'Malgun Gothic', sans-serif;
+}
+
+.content, .content2, .content3{
+    width: 500px;
+    border: 3px solid black;
+}
+
+.content p {
+    word-break: break-all;
+}
+
+.content2 p {
+    text-align: justify;
+}
+
+.content3 p {
+    text-align: justify;
+    word-break: break-all;
+}
+
+/* white-space: nowrap | pre | pre-wrap | pre-line */
+
+.white1 {
+    border: 3px solid black;
+    width: 600px;
+    white-space: pre;
+}
+
+.white2 {
+    border: 3px solid black;
+    width: 600px;
+    white-space: pre-wrap;
+}
+
+.white3 {
+    border: 3px solid black;
+    width: 600px;
+    white-space: pre-line;
+}
