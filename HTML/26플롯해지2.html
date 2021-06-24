@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clear</title>
+    <style>
+        img {
+            vertical-align: top;
+        }
+
+        .area {
+            width: 800px;
+            overflow: hidden; /* 영역에서 넘치는 부분을 감춤 */
+            margin: 0 auto;
+            border: 3px dashed red;
+           /* *zoom: 1;  IE6, IE7 Hack */
+        }
+        /* 익스프롤러 구버전에서 :after 인식이 안되기 때문에 한계가 있음 */
+        /* .area:after {
+            content: "";
+            display: block;
+            clear: both;
+        } */
+        .area .thumb {
+            float: left;
+            border: 3px solid black;
+        }
+        .cls {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="area">
+        <div class="thumb"><img src="http://placehold.it/100x120?text=1" alt=""></div>
+        <div class="thumb"><img src="http://placehold.it/100x120?text=2" alt=""></div>
+        <div class="thumb"><img src="http://placehold.it/100x120?text=3" alt=""></div>
+        <div class="thumb"><img src="http://placehold.it/100x120?text=4" alt=""></div>
+        <div class="thumb"><img src="http://placehold.it/100x120?text=5" alt=""></div>
+        <!-- clear 위치 -->
+    </div>
+    <p class="cls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quia. Laudantium voluptatum aspernatur quod provident atque quas excepturi rerum, nemo aperiam doloribus ex non delectus cumque? Nesciunt et non a accusantium incidunt nostrum natus quos expedita ipsa consectetur laudantium, repudiandae sit excepturi reprehenderit commodi id, amet sequi vel eos tempore temporibus perspiciatis consequuntur provident! Ab, fuga corporis vero nam reiciendis vel obcaecati illum illo ad beatae, ducimus, voluptatum quibusdam. Quam assumenda natus optio, tempore in dolore officia quibusdam sunt laudantium itaque fugit suscipit ipsam enim saepe voluptates atque maxime placeat reiciendis deleniti impedit fuga. Ab libero atque architecto mollitia necessitatibus.</p>
+</body>
+</html>

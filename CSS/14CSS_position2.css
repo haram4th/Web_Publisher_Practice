@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+.box {
+    /* position: relative | absolute (절대위치) | fixed (무조건 가장 바깥쪽이 기준, 고정위치)
+    | static */
+    
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: rgba(255, 0, 0, .5);
+    font: 12px/1.6 verdana, sans-serif;
+}
+
+.box::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.area {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    border: 5px dashed red;
+}
+
+.a {
+    position: relative; 
+    background-color: rgba(255,0,0,.8);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.b {
+    position: relative;
+    background-color: rgba(0,255,0,.8);
+    left: 50px;
+    /* top: -500px; */
+    margin-top: -500px;
+
+    z-index: 2;
+}
+
+.c {
+    position: relative;
+    background-color: rgba(0,0,255,.8);
+    left: 100px;
+    /* top: -1000px; */
+    margin-top: -500px;
+    z-index: 3;
+}
