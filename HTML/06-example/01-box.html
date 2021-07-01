@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>box</title>
+    <style>
+        /* reset */
+        /* @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap'); */
+        html, body {width: 100%; height: 100%;}
+        body,h1,h2,h3,p {margin:0; padding: 0;}
+        body,h1,h2,h3,input,select,textarea,button,th,td {
+            font-family: 'Malgun Gothic', sans-serif; font-size: 12px;
+        } 
+        /* body{font-family: 'Nanum Gothic', sans-serif; font-size: 12px;} */
+        /* style */
+        .section {
+            position: relative;
+            margin: 20px;
+            border: 1px solid #ccc;
+        }
+        .section .hx {
+            border: 1px solid #eee;
+            padding: 8px;
+            background-color: #eee;
+            color: #333;
+            font-size: 1.1em;
+            font-weight: bold;
+        }    
+        .section .tx {
+            border: 1px solid #ccc;
+            padding: 8px;
+            color: #555;
+            line-height: 1.5em;
+        }
+
+        .section .section_more {
+            position: absolute;
+            right: 8px;
+            top: 8px;
+        }
+        .section .section_more a {
+            position: relative;
+            color: #666;
+            text-decoration: none;
+            letter-spacing: -1px;
+
+        }
+        .section .section_more a .ico {
+            position: absolute;
+            left: -8px;
+            top: 2px;
+            display: block;
+            /* 삼각형 아이콘 만들기 */
+            width: 0px;
+            height: 0px;
+            border: 10px solid red;
+            border-width: 5px 0 5px 5px;
+            border-color:transparent transparent transparent#aaa;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- UI Object  -->
+    <div class="section">
+        <h2 class="hx">제목</h2>
+        <div class="tx">내용</div>
+        <div class="tx">내용</div>
+        <div class="tx">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut vero quidem fugiat dignissimos praesentium, voluptas libero numquam! Optio ab nostrum expedita eos totam ducimus officiis rerum quaerat voluptatem quos facilis voluptate numquam iure, quidem quod? Aut officiis dignissimos error nesciunt officia molestias, voluptatem quidem esse perspiciatis voluptas saepe aspernatur ratione earum? Eos laudantium sit sed. Nulla, at. Fuga dolorum deleniti architecto neque laborum, alias qui illo delectus commodi libero, aspernatur perferendis voluptate distinctio explicabo quaerat esse, omnis non. Itaque, illum ipsam mollitia quos nostrum iusto cumque velit et voluptatum quasi omnis excepturi officiis incidunt quas vel nobis eveniet ea error, magni laborum repellendus expedita doloremque. Optio illo voluptas iusto quo magni, maxime architecto id ullam reprehenderit ad eligendi reiciendis nobis sed. Eligendi, quidem corporis? Quam odio ducimus quo aperiam dolorem nobis provident autem impedit nostrum veritatis. Quis molestias aspernatur enim sequi accusantium, maiores quas illum, modi cumque incidunt eaque harum quaerat maxime qui? Laudantium, id? Odit et, laudantium atque nemo repellendus corporis nulla deleniti enim magni illum ut quaerat praesentium veniam officiis vitae nisi fugiat aspernatur labore consequuntur iusto itaque. Non necessitatibus suscipit accusantium dignissimos dolore excepturi labore. Doloremque illum fuga ipsa accusamus voluptate vel dolorum qui ducimus aliquid odio.</div>
+        <p class="section_more"><a href="#"><span class="ico"></span> 더보기</a></p>
+    </div>
+
+    <!-- //UI Object  -->
+</body>
+</html>
